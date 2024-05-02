@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100dvh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.card {
+  /* background-color: antiquewhite; */
+  width: 600px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.pessoa {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.pessoa .nome {
+  width: 30%;
+}
+
+.icon {
+  border-radius: 50%;
+  background-color: rgb(221, 221, 221);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsWebIcon {
+  display: flex;
+  gap: 8px;
+}
+
+.whatsWebIcon button {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: green;
+  color: white;
+  font-size: 0.7rem;
+}
+
+.material-icons.woman {
+  font-size: 30px;
+  color: rgb(248, 86, 113);
+}
+.material-icons.man {
+  font-size: 35px;
+  color: rgb(46, 46, 255);
+}
